@@ -1,14 +1,21 @@
 import Layout from './Layout/Layout';
+import HeaderBlock from './HeaderBlock/HeaderBlock';
+import ContentBlock from './ContentBlock/ContentBlock';
+import FooterBlock from './FooterBlock/FooterBlock';
 
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <Layout>
-      <h1>Home Work #2.2</h1>
-      <div>Hello</div>
+      <HeaderBlock
+        title="Учите слова онлайн"
+        descr="Воспользуйтесь карточками для запоминания и пополнения активныйх словарных запасов"
+      />
+      <ContentBlock />
+      <FooterBlock />
     </Layout>
   );
-}
+};
 
 export default App;

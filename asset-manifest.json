@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/learn-the-worlds/static/css/main.8d06a688.chunk.css",
+    "main.js": "/learn-the-worlds/static/js/main.9fd261ad.chunk.js",
+    "main.js.map": "/learn-the-worlds/static/js/main.9fd261ad.chunk.js.map",
+    "runtime-main.js": "/learn-the-worlds/static/js/runtime-main.620f1000.js",
+    "runtime-main.js.map": "/learn-the-worlds/static/js/runtime-main.620f1000.js.map",
+    "static/js/2.74ffb7b0.chunk.js": "/learn-the-worlds/static/js/2.74ffb7b0.chunk.js",
+    "static/js/2.74ffb7b0.chunk.js.map": "/learn-the-worlds/static/js/2.74ffb7b0.chunk.js.map",
+    "index.html": "/learn-the-worlds/index.html",
+    "static/css/main.8d06a688.chunk.css.map": "/learn-the-worlds/static/css/main.8d06a688.chunk.css.map",
+    "static/js/2.74ffb7b0.chunk.js.LICENSE.txt": "/learn-the-worlds/static/js/2.74ffb7b0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/learn-the-worlds/static/media/bg.29926e6f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.620f1000.js",
+    "static/js/2.74ffb7b0.chunk.js",
+    "static/css/main.8d06a688.chunk.css",
+    "static/js/main.9fd261ad.chunk.js"
+  ]
+}

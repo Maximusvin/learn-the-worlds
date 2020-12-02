@@ -1,31 +1,34 @@
-import s from './Card.module.css';
 import { DeleteOutlined } from '@ant-design/icons';
 import cl from 'classnames';
+import s from './CardsBlock.module.css';
 
 const CardItem = ({
-  words,
+  eng,
+  rus,
+  studied,
+  isRemembered,
   onChangeStudied,
   onRemoveCard,
   onChangeRemembered,
 }) => {
-  return words.map(({ eng, rus, id, studied, isRemembered }) => (
-    <li key={id} className={s.cardItem}>
+  return (
+    <li className={s.cardItem}>
       <p
         className={cl(s.text, {
           [s.rus]: studied,
           [s.isRemembered]: isRemembered,
         })}
-        // className={!studied ? s.eng : s.rus}
-        onClick={() => onChangeStudied(id)}
+        onClick={onChangeStudied}
       >
         {!studied ? eng : rus}
       </p>
+
       <div className={s.controls}>
-        <input type="checkbox" onChange={() => onChangeRemembered(id)} />
-        <DeleteOutlined onClick={() => onRemoveCard(id)} />
+        <input type="checkbox" onChange={onChangeRemembered} />
+        <DeleteOutlined onClick={onRemoveCard} />
       </div>
     </li>
-  ));
+  );
 };
 
 export default CardItem;

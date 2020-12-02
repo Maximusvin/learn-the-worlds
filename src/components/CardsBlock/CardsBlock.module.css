@@ -3,6 +3,10 @@
   margin-bottom: 50px;
 }
 
+.description {
+  margin-bottom: 30px;
+}
+
 .cardList {
   display: flex;
   justify-content: space-between;

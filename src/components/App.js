@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import Layout from './Layout/Layout';
-import Card from './Card/Card';
+import CardsBlock from './CardsBlock/CardsBlock';
 
 import WORDS from '../DATA/wordList.json';
 
@@ -46,7 +46,7 @@ export default class App extends Component {
     const { words } = this.state;
     return (
       <Layout>
-        <Card
+        <CardsBlock
           words={words}
           countWords={countWords}
           countStudied={countStudied}

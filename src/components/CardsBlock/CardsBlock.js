@@ -1,7 +1,7 @@
 import CardItem from './CardItem';
-import s from './Card.module.css';
+import s from './CardsBlock.module.css';
 
-const Card = ({
+const CardsBlock = ({
   words,
   countWords,
   countStudied,
@@ -17,12 +17,15 @@ const Card = ({
         запаса
       </p>
       <ul className={s.cardList}>
-        <CardItem
-          words={words}
-          onChangeStudied={onChangeStudied}
-          onChangeRemembered={onChangeRemembered}
-          onRemoveCard={onRemoveCard}
-        />
+        {words.map(word => (
+          <CardItem
+            {...word}
+            onChangeStudied={() => onChangeStudied(word.id)}
+            onChangeRemembered={() => onChangeRemembered(word.id)}
+            onRemoveCard={() => onRemoveCard(word.id)}
+            key={word.id}
+          />
+        ))}
       </ul>
       <ul>
         <li>Всего слов: {countWords}</li>
@@ -33,4 +36,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default CardsBlock;

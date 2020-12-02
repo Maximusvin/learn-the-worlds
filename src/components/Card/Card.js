@@ -12,6 +12,10 @@ const Card = ({
   return (
     <div>
       <h2 className={s.title}>Кликай по карточкам и узнавай новые слова</h2>
+      <p>
+        Воспользуйтесь карточками для запоминания слов и пополнения словарного
+        запаса
+      </p>
       <ul className={s.cardList}>
         <CardItem
           words={words}

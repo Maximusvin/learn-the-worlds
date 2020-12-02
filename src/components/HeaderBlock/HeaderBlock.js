@@ -2,10 +2,10 @@ import s from './HeaderBlock.module.css';
 
 const HeaderBlock = ({ title }) => {
   return (
-    <div class="cover">
-      <div class="wrap">
-        <h1 class="header">{title}</h1>
-        <p class="descr">
+    <div className={s.cover}>
+      <div className={s.wrap}>
+        <h1 className={s.header}>{title}</h1>
+        <p className={s.descr}>
           Воспользуйтесь карточками для запоминания и пополнения активныйх
           словарных запасов
         </p>

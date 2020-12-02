@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "eng": "between",
+    "rus": "между",
+    "studied": false,
+    "isRemembered": false
+  },
+  {
+    "id": 2,
+    "eng": "high",
+    "rus": "высокий",
+    "studied": false,
+    "isRemembered": false
+  },
+  {
+    "id": 3,
+    "eng": "really",
+    "rus": "действительно",
+    "studied": false,
+    "isRemembered": false
+  },
+  {
+    "id": 4,
+    "eng": "something",
+    "rus": "что-нибудь",
+    "studied": false,
+    "isRemembered": false
+  },
+  {
+    "id": 5,
+    "eng": "most",
+    "rus": "большинство",
+    "studied": false,
+    "isRemembered": false
+  },
+  {
+    "id": 6,
+    "eng": "another",
+    "rus": "другой",
+    "studied": false,
+    "isRemembered": false
+  },
+  {
+    "id": 7,
+    "eng": "much",
+    "rus": "много",
+    "studied": false,
+    "isRemembered": false
+  },
+  {
+    "id": 8,
+    "eng": "family",
+    "rus": "семья",
+    "studied": false,
+    "isRemembered": false
+  },
+  {
+    "id": 9,
+    "eng": "own",
+    "rus": "личный",
+    "studied": false,
+    "isRemembered": false
+  },
+  {
+    "id": 10,
+    "eng": "out",
+    "rus": "из/вне",
+    "studied": false,
+    "isRemembered": false
+  },
+  {
+    "id": 11,
+    "eng": "leave",
+    "rus": "покидать",
+    "studied": false,
+    "isRemembered": false
+  }
+]

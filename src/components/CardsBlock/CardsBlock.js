@@ -8,6 +8,7 @@ const CardsBlock = ({
   onChangeStudied,
   onRemoveCard,
   onChangeRemembered,
+  onAddWord,
 }) => {
   return (
     <div>
@@ -21,6 +22,7 @@ const CardsBlock = ({
         onChangeStudied={onChangeStudied}
         onChangeRemembered={onChangeRemembered}
         onRemoveCard={onRemoveCard}
+        onAddWord={onAddWord}
       />
       <ul>
         <li>Всего слов: {countWords}</li>
